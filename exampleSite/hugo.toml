@@ -13,7 +13,7 @@ googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read th
 # disqus short name
 disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
-disableLanguages = [
+disableLanguages = ["fr"
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
@@ -99,25 +99,25 @@ name = "services"
 url = "#services"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
+#[[Languages.en.menu.main]]
+#name = "portfolio"
+#url = "#portfolio"
+#weight = 3
 
 [[Languages.en.menu.main]]
 name = "team"
 url = "#team"
 weight = 4
 
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
+#[[Languages.en.menu.main]]
+#name = "pricing"
+#url = "#pricing"
+#weight = 5
 
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
+#[[Languages.en.menu.main]]
+#name = "blog"
+#url = "#blog"
+#weight = 6
 
 [[Languages.en.menu.main]]
 name = "contact"
@@ -125,10 +125,10 @@ url = "#contact"
 weight = 7
 
 
-[[Languages.en.menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
+#[[Languages.en.menu.main]]
+#name = "Dropdown"
+#weight = 7
+#hasChildren = true
 
 #[[Languages.en.menu.main]]
 #parent = "Dropdown"
@@ -142,52 +142,52 @@ hasChildren = true
 #url = "#"
 #weight = 2
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+#[[Languages.en.menu.main]]
+#name = "themefisher"
+#url = "https://themefisher.com/"
+#weight = 8
 
 
 ################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
-weight = 1
+#[[Languages.fr.menu.main]]
+#name = "sur"
+#url = "#about"
+#weight = 1
 
-[[Languages.fr.menu.main]]
-name = "un service"
-url = "#services"
-weight = 2
+#[[Languages.fr.menu.main]]
+#name = "un service"
+#url = "#services"
+#weight = 2
 
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
+#[[Languages.fr.menu.main]]
+#name = "portefeuille"
+#url = "#portfolio"
+#weight = 3
 
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
-weight = 4
+#[[Languages.fr.menu.main]]
+#name = "équipe"
+#url = "#team"
+#weight = 4
 
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
+#[[Languages.fr.menu.main]]
+#name = "tarification"
+#url = "#pricing"
+#weight = 5
 
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
+#[[Languages.fr.menu.main]]
+#name = "blog"
+#url = "#blog"
+#weight = 6
 
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
+#[[Languages.fr.menu.main]]
+#name = "contact"
+#url = "#contact"
+#weight = 7
 
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+#[[Languages.fr.menu.main]]
+#name = "themefisher"
+#url = "https://themefisher.com/"
+#weight = 8
 
 ############################# Default Parameters ##########################
 [params]
@@ -253,15 +253,15 @@ contentDir = "content/english"
 [Languages.en.params]
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020  & Developed by Blue Inti"
 
 ################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
+#[Languages.fr]
+#languageName = "Fr"
+#languageCode = "fr-fr"
+#contentDir = "content/french"
+#weight = 2
 
-[Languages.fr.params]
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+#[Languages.fr.params]
+#home = "Accueil"
+#copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
