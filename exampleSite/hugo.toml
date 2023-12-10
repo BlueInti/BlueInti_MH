@@ -130,17 +130,17 @@ name = "Dropdown"
 weight = 7
 hasChildren = true
 
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
-weight = 1
+#[[Languages.en.menu.main]]
+#parent = "Dropdown"
+#name = "Dropdown 1"
+#url = "#"
+#weight = 1
 
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
+#[[Languages.en.menu.main]]
+#parent = "Dropdown"
+#name = "Dropdown 2"
+#url = "#"
+#weight = 2
 
 [[Languages.en.menu.main]]
 name = "themefisher"
