@@ -1,7 +1,7 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image_webp : "images/backgrounds/SeaSun3.webp"
   bg_image : "images/backgrounds/SeaSun3.png"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Blue Inti"
